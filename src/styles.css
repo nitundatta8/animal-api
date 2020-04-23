@@ -13,8 +13,9 @@ body {
   text-align: center;
   text-align: top;
   height: auto;
-  padding: 1%;
+  padding: .5%;
 } 
+
 .container {
   text-align: center;
 }
@@ -26,4 +27,7 @@ h1 {
   color: rgb(230, 230, 5);
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2px;
+}
+.showText {
+  padding: .5%;
 }

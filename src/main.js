@@ -17,9 +17,11 @@ $(document).ready(function() {
 
     request.open("GET", url, true);
     request.send();
-
+    
    const getElements = function(response) {
-    $('.showShibe').html(`Enjoy this picture! <img alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
+    $('.showText').text("Enjoy this picture!"); 
+    $('.showShibe').html(` <img alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
+    
    }
   });
 });
