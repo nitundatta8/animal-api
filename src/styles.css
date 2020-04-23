@@ -9,10 +9,11 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
   text-align: center;
   text-align: top;
-  
+  height: auto;
+  padding: 1%;
 } 
 .container {
   text-align: center;
@@ -20,4 +21,9 @@ body {
 #shibeLocation {
   background-color: rgb(0, 3, 2);
   color: rgb(215, 253, 0);
+}
+h1 {
+  color: rgb(230, 230, 5);
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
 }
