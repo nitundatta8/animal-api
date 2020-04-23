@@ -16,9 +16,9 @@ $(document).ready(function() {
 
     function getElements(response) {
       if (response) { 
-        $('.showShibe').html(`<p>Enjoy this picture of a Shiba Inu!</p><img height ="500px" alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
+        $('.showOutput').html(`<p>Enjoy this picture of a Shiba Inu!</p><img height ="500px" alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
       } else {
-        $('.showShibe').html(`Apologies there was an error to diplay Shibe`);
+        $('.showOutput').html(`Apologies there was an error to diplay Shibe`);
       }
     }
   });
@@ -34,9 +34,9 @@ $(document).ready(function() {
 
     function getElements(response) {
       if (response) {
-        $('.showShibe').html(`<p>Enjoy this picture of a cat!</p><img height ="500px" alt = "catto" src = "https://cdn.shibe.online/cats/${response}.jpg">`);
+        $('.showOutput').html(`<p>Enjoy this picture of a cat!</p><img height ="500px" alt = "catto" src = "https://cdn.shibe.online/cats/${response}.jpg">`);
       } else {
-        $('.showShibe').html(`Apologies there was an error to diplay Cat`);
+        $('.showOutput').html(`Apologies there was an error to diplay Cat`);
       }
     }
   });
@@ -52,9 +52,9 @@ $(document).ready(function() {
 
     function getElements(response) {
       if (response) {
-        $('.showShibe').html(`<p>Enjoy this picture of a bird!</p><img height="500px" alt = "birddo" src = "https://cdn.shibe.online/birds/${response}.jpg">`);
+        $('.showOutput').html(`<p>Enjoy this picture of a bird!</p><img height="500px" alt = "birddo" src = "https://cdn.shibe.online/birds/${response}.jpg">`);
       }else {
-      $('.showShibe').html(`Apologies there was an error to diplay Bird`);
+      $('.showOutput').html(`Apologies there was an error to diplay Bird`);
       }
     }
   });
