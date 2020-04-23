@@ -15,11 +15,10 @@ $(document).ready(function() {
     })();
 
     function getElements(response) {
-      if (response) {
-        $('.showText').text("Enjoy this picture!"); 
-        $('.showShibe').html(`<img alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
+      if (response) { 
+        $('.showShibe').html(`<p>Enjoy this picture!</p><img height ="200px" alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
       } else {
-        $('.showShibeError').html(`Apologies there was an error to diplay Shibe`);
+        $('.showShibe').html(`Apologies there was an error to diplay Shibe`);
       }
     }
   });
@@ -35,14 +34,13 @@ $(document).ready(function() {
 
     function getElements(response) {
       if (response) {
-        $('.showText').text("Enjoy this picture!"); 
-        $('.showShibe').html(`<img alt = "catto" src = "https://cdn.shibe.online/cats/${response}.jpg">`);
+        $('.showShibe').html(`<p>Enjoy this picture!</p><img height ="200px" alt = "catto" src = "https://cdn.shibe.online/cats/${response}.jpg">`);
       } else {
-        $('.showCatError').html(`Apologies there was an error to diplay Cat`);
+        $('.showShibe').html(`Apologies there was an error to diplay Cat`);
       }
     }
   });
-  
+
   // Bird
   $('#birdLocation').click(function() {
 
@@ -54,10 +52,9 @@ $(document).ready(function() {
 
     function getElements(response) {
       if (response) {
-        $('.showText').text("Enjoy this picture!"); 
-        $('.showShibe').html(`<img alt = "birddo" src = "https://cdn.shibe.online/birds/${response}.jpg">`);
+        $('.showShibe').html(`<p>Enjoy this picture!</p><img height="200px" alt = "birddo" src = "https://cdn.shibe.online/birds/${response}.jpg">`);
       }else {
-      $('.showBirdError').html(`Apologies there was an error to diplay Bird`);
+      $('.showShibe').html(`Apologies there was an error to diplay Bird`);
       }
     }
   });
