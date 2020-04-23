@@ -1,3 +1,3 @@
-export function shibe() {
+// export function shibe() {
   
-}
+// }
