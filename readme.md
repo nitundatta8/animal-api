@@ -1,10 +1,10 @@
-# _My Plate_
+# _LOL-Animals_
 
-#### April 14rd, 2020
+#### April 23rd, 2020
 
 ## Description
 
-_This template creates a specialized environment_
+_This creates a webpage that shows the user pictures of Shibe Inu's._
 
 _This site is already linked to an index.html, styles.css, jQuery.js(3.4.1), scripts.js., main.js, jest, babel, lint, webpack, json, & gitignore_
 
@@ -42,10 +42,10 @@ git clone {link to repository}
 ## Specs
 
 ### Behavior Driven Development Spec List
-#### My Plate
+#### LOL-Animals
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
-| The program  | '' | ''  |
+| The program will present an image of an animal upon a click | 'Click' | 'Animal Picture'  |
 | The program  | '' | '' |
 | The program  | '' | '' |
 
@@ -54,11 +54,11 @@ git clone {link to repository}
 ---
 ## Known Bugs
 
-_N/A_ - 4/14/2020
+_N/A_ - 4/23/2020
 
 ## gh-pages
 
-WiseFool92.github.io/my-plate
+WiseFool92.github.io/lol-animals
 
 ## Support
 
@@ -105,4 +105,4 @@ _Email: watkins92@gmail.com_
 
 This project is licensed under the MIT License
 
-Copyright (c) 2020 **_Nathan Watkins-Hoagland_**
+Copyright (c) 2020 **_Nathan Watkins-Hoagland & Nitun Datta_**

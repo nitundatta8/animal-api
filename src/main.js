@@ -1,26 +1,13 @@
-import { pingPong } from './ping-pong';
+import { shibe } from './shibe';
 import $ from 'jquery';
 import './styles.css';
-import stockPuppyPhoto from './assets/images/puppy.jpg';
 
 $(document).ready(function() {
-  $('#ping-pong-form').submit(function(event) {
-    event.preventDefault();
-    var goal = $('#goal').val();
-    var output = pingPong(goal);
-    output.forEach(function(element) {
-      $('#solution').append("<li>" + element + "</li>");
-    });
-  });
-  
-  $("#thing").html(`<img src=${stockPuppyPhoto} />`);
-
-  $('#weatherLocation').click(function() {
-    const city = $('#location').val();
-    $('#location').val("");
+  $('#shibeLocation').click(function() {
 
     let request = new XMLHttpRequest();
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.API_KEY}`;
+    const url = `http://shibe.online/api/shibes?count=[1-100]&urls=[true/false]&httpsUrls=[true/false]
+    &appid=${process.env.API_KEY}`;
 
     request.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {
@@ -33,8 +20,8 @@ $(document).ready(function() {
     request.send();
 
    const getElements = function(response) {
-      $('.showHumidity').text(`The humidity in ${city} is ${response.main.humidity}%`);
-      $('.showTemp').text(`The temperature in Kelvins is ${response.main.temp} degrees.`);
+      console.log(response);
+      $('.showShibe').text(`Enjoy this ${response.main.humidity} picture!`);
     }
   });
 });
