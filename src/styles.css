@@ -18,9 +18,29 @@ body {
 #shibe {
   text-align: center;
 }
+#cat {
+  float: left;
+  padding: .5%;
+}
+#bird {
+  float: right;
+  padding: .5%;
+}
 #shibeLocation {
   background-color: rgb(0, 3, 2);
   color: rgb(215, 253, 0);
+}
+#catLocation {
+  float: left;
+  background-color: rgb(0, 3, 2);
+  color: rgb(215, 253, 0);
+  padding: .5%;
+}
+#birdLocation {
+  float: right;
+  background-color: rgb(0, 3, 2);
+  color: rgb(215, 253, 0);
+  padding: .5%;
 }
 h1 {
   color: rgb(230, 230, 5);

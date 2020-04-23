@@ -42,6 +42,7 @@ $(document).ready(function() {
       }
     }
   });
+  
   // Bird
   $('#birdLocation').click(function() {
 
