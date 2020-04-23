@@ -15,8 +15,7 @@ body {
   height: auto;
   padding: .5%;
 } 
-
-.container {
+#shibe {
   text-align: center;
 }
 #shibeLocation {
