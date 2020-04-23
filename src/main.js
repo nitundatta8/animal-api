@@ -19,9 +19,7 @@ $(document).ready(function() {
     request.send();
 
    const getElements = function(response) {
-      
-      console.log(response+ "  ------");
-       $('.showShibe').html(`Enjoy this picture! <img alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
-    }
+    $('.showShibe').html(`Enjoy this picture! <img alt = "doggo" src = "https://cdn.shibe.online/shibes/${response}.jpg">`);
+   }
   });
 });
